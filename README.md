@@ -25,4 +25,4 @@ Create simple program that prints out "Hello from [LANG]."
 ## Done:
 |                           |C  |    CPP|Fortran|   Java|Haskell|   Rust|    Nasm_x86_64_Linux|   Nasm_86_64_Windows|   Fasm_86_64_Linux|Fasm_x86_64_Windows|
 |---------------------------|---|-------|-------|-------|-------|-------|---------------------|---------------------|-------------------|-------------------|
-|[01](###01-Successful-Build)  | ✅|     ✅|     ✅|     ✅|     ✅|     ✅|                   ✅|                   ❌|                 ❌|                 ❌|
+|[01](#01-Successful-Build)  | ✅|     ✅|     ✅|     ✅|     ✅|     ✅|                   ✅|                   ❌|                 ❌|                 ❌|
