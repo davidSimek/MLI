@@ -22,6 +22,8 @@ Write these programs in all languages showed here:
 Create simple program that prints out "Hello from [LANG]."
 
 ## Done:
+<div align="center">
 |                           |  C|    CPP|Fortran|   Java|Haskell|   Rust|    Nasm x86_64 Linux|   Nasm 86_64 Windows|   Fasm 86_64 Linux|Fasm x86_64 Windows|
 |---------------------------|---|-------|-------|-------|-------|-------|---------------------|---------------------|-------------------|-------------------|
 |[01](#01-Successful-Build) | ✅|     ✅|     ✅|     ✅|     ✅|     ✅|                   ✅|                   ❌|                 ❌|                 ❌|
+</div>
