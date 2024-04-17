@@ -12,16 +12,16 @@ Write these programs in all languages showed here:
 - Java
 - Haskell
 - Rust
-- Nasm_x86_64_Linux
-- Nasm_86_64_Windows
-- Fasm_86_64_Linux
-- Fasm_x86_64_Windows
+- Nasm x86_64 Linux
+- Nasm x86_64 Windows (testing with wine)
+- Fasm x86_64 Linux
+- Fasm x86_64 Windows (testing with wine)
 
 ## Assignments:
 ### 01 Successful Build
 Create simple program that prints out "Hello from [LANG]."
 
 ## Done:
-|                           |C  |    CPP|Fortran|   Java|Haskell|   Rust|    Nasm_x86_64_Linux|   Nasm_86_64_Windows|   Fasm_86_64_Linux|Fasm_x86_64_Windows|
+|                           |  C|    CPP|Fortran|   Java|Haskell|   Rust|    Nasm x86_64 Linux|   Nasm 86_64 Windows|   Fasm 86_64 Linux|Fasm x86_64 Windows|
 |---------------------------|---|-------|-------|-------|-------|-------|---------------------|---------------------|-------------------|-------------------|
 |[01](#01-Successful-Build) | ✅|     ✅|     ✅|     ✅|     ✅|     ✅|                   ✅|                   ❌|                 ❌|                 ❌|
