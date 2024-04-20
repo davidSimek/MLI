@@ -27,4 +27,4 @@ Write these programs in all languages showed here:
 |                                   |  C|    CPP|Fortran|   Java|Haskell|   Rust|    Nasm x86_64 Linux|   Fasm 86_64 Linux|
 |:---------------------------------:|:-:|:-----:|:-----:|:-----:|:-----:|:-----:|:-------------------:|:-----------------:|
 |[01](#01-Successful-Build)         | ✅|     ✅|     ✅|     ✅|     ✅|     ✅|                   ✅|                 ✅|
-|[02](#02-Ascii-Art-Random-Number)  | ✅|     ❌|     ❌|     ❌|     ❌|     ❌|                   ❌|                 ❌|
+|[02](#02-Ascii-Art-Random-Number)  | ✅|     ✅|     ❌|     ✅|     ❌|     ❌|                   ❌|                 ❌|

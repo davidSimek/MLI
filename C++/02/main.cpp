@@ -1,9 +1,12 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include <stdlib.h>
-#include <time.h>
+#include <cstdio>
+#include <cstdlib>
+#include <ctime>
+#include <limits>
+#include <ostream>
+#include <string>
+#include <iostream>
 
-char ascii_digit[6][36] = {
+std::string ascii_digits[6] = {
     "  #  \n"
     " ##  \n"
     "# #  \n"
@@ -48,20 +51,21 @@ char ascii_digit[6][36] = {
 };
 
 int main(void) {
-    srand(time(NULL));
+    std::srand(std::time(NULL));
+    char user_input;
 
     while (true) {
-        printf("Do you want to roll a dice?(y/n): ");
-        char user_input = getc(stdin);
-        char c;
-        while((c = getc(stdin) != '\n') && c != EOF) {}
+        std::cout << "Do you want to generate random number? (y/n)" << std::endl;
+        std::cin >> user_input;
+
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
         if (user_input == 'n')
             break;
         if (user_input != 'y')
             continue;
 
-        printf("Your number is :\n%s\n", ascii_digit[(rand() % 6)]);
+        std::cout << "Your number is:" << std::endl << ascii_digits[(rand() % 6) + 1] << std::endl;
     }
-    return 0;
 }
