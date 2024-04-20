@@ -17,9 +17,14 @@ Write these programs in all languages showed here:
 
 ## Assignments:
 ### 01 Successful Build
-Create simple program that prints out "Hello from [LANG]."
+- prints out "Hello from [LANG]."
+### 02 ASCII-ART random number
+- asks if you want to generate random number
+- if so prints ascii digit in range 1:6
+- repeats
 
 ## Done:
-|                           |  C|    CPP|Fortran|   Java|Haskell|   Rust|    Nasm x86_64 Linux|   Fasm 86_64 Linux|
-|:-------------------------:|:-:|:-----:|:-----:|:-----:|:-----:|:-----:|:-------------------:|:-----------------:|
-|[01](#01-Successful-Build) | ✅|     ✅|     ✅|     ✅|     ✅|     ✅|                   ✅|                 ✅|
+|                                   |  C|    CPP|Fortran|   Java|Haskell|   Rust|    Nasm x86_64 Linux|   Fasm 86_64 Linux|
+|:---------------------------------:|:-:|:-----:|:-----:|:-----:|:-----:|:-----:|:-------------------:|:-----------------:|
+|[01](#01-Successful-Build)         | ✅|     ✅|     ✅|     ✅|     ✅|     ✅|                   ✅|                 ✅|
+|[02](#02-ASCII-ART-random-number)  | ✅|     ❌|     ❌|     ❌|     ❌|     ❌|                   ✅|                 ✅|
