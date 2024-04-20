@@ -18,7 +18,7 @@ Write these programs in all languages showed here:
 ## Assignments:
 ### 01 Successful Build
 - prints out "Hello from [LANG]."
-### 02 ASCII-ART random number
+### 02 Ascii Art Random Number
 - asks if you want to generate random number
 - if so prints ascii digit in range 1:6
 - repeats
@@ -27,4 +27,4 @@ Write these programs in all languages showed here:
 |                                   |  C|    CPP|Fortran|   Java|Haskell|   Rust|    Nasm x86_64 Linux|   Fasm 86_64 Linux|
 |:---------------------------------:|:-:|:-----:|:-----:|:-----:|:-----:|:-----:|:-------------------:|:-----------------:|
 |[01](#01-Successful-Build)         | ✅|     ✅|     ✅|     ✅|     ✅|     ✅|                   ✅|                 ✅|
-|[02](#02-ASCII-ART-random-number)  | ✅|     ❌|     ❌|     ❌|     ❌|     ❌|                   ❌|                 ❌|
+|[02](#02-Ascii-Art-Random-Number)  | ✅|     ❌|     ❌|     ❌|     ❌|     ❌|                   ❌|                 ❌|
