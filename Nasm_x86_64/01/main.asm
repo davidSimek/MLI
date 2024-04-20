@@ -1,5 +1,5 @@
 section .data
-    msg db "Hello from x86_64 Nasm for Linux.\n", 0
+    msg db "Hello from x86_64 Nasm for Linux.",10
     msg_len equ $ - msg
 
 section .text
@@ -34,4 +34,3 @@ exit:
     syscall
 
     ret
-
