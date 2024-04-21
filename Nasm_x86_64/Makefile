@@ -1,5 +1,5 @@
 NC = nasm
-CFLAGS = -f elf64 -Wall
+CFLAGS = -g -f elf64 -Wall
 SOURCE_DIRS = $(patsubst %/,%,$(wildcard */))
 
 .PHONY: all clean $(SOURCE_DIRS)
