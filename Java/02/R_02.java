@@ -61,5 +61,6 @@ public class R_02 {
 
             System.out.printf("Your digit is\n%s\n", asciiDigits[rnd.nextInt(6)]);
         }
+        sc.close();
     }
 }
