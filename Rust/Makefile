@@ -1,13 +1,16 @@
-CC = rustc
-CFLAGS = -W unused -W deprecated -W missing_docs -W missing_debug_implementations
-SOURCE_DIRS = $(patsubst %/,%,$(wildcard */))
+PROJECTS = p01 p02
 
-.PHONY: all clean $(SOURCE_DIRS)
+EXECUTABLES = r_01 r_02
 
-all: $(SOURCE_DIRS)
+.PHONY: all clean
 
-$(SOURCE_DIRS):
-	$(CC) $(CFLAGS) -o r_$@ $@/main.rs
+all: $(EXECUTABLES)
+
+r_%: p% p%/src/main.rs
+	cargo build --release --manifest-path $</Cargo.toml
+	cp $</target/release/p$* r_$*
 
 clean:
-	rm -f $(SOURCE_DIRS)
+	$(foreach dir, $(PROJECTS), cargo clean --manifest-path $(dir)/Cargo.toml;)
+	rm -f $(EXECUTABLES)
+
