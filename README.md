@@ -20,7 +20,7 @@ Write these programs in all languages showed here:
 - prints out "Hello from [LANG]."
 ### 02 Ascii Art Random Number
 - asks if you want to generate random number
-- if so prints ascii digit in range 1:6
+- if so prints ascii digit in range <1;6>
 - repeats
 
 ## Done:
